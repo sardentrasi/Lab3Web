@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/style.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas</title>
+</head>
+<body>
+    <header>
+        <h1>Membut Form dengan <i>dropdown</i> dan <i>listbox</i>
+        </h1>
+    </header>
+    <form action="proses.php" method="POST">
+        <p>Pilihan Jurusan</p>
+        <select name="nama_jurusan" size= "4" multiple="multiple">
+            <option value="1">Tekhnik Informatika</option>
+            <option value="2">Tekhnik Lingkungan</option>
+            <option value="3">Tekhnik Sipil</option>
+            <option value="4">Tekhnik Industri</option>
+        </select>
+
+    <hr>
+    <br>
+    <select name="nama_jurusan">
+        <option value="" selected="selected">--Pilih Jurusan--</option>
+        <option value="ti">Tekhnik Infotmatika</option>
+        <option value="tl">Tekhnik Lingkungan</option>
+        <option value="ts">Tekhnik Sipil</option>
+        <option value="tin">Tekhnik Industri</option>
+    </select>
+
+
+    </form>
+<br>
+<button><a href="">Send</a></button>
+</body>
+</html>
